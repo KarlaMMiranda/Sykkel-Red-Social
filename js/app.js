@@ -49,4 +49,5 @@ function authentication(provider){
     var credential = error.credential;
     // ...
 });
-}
+};
+
