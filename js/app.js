@@ -13,10 +13,7 @@ $(document).ready(function() {
 });
 
 
-
-
-<script>
-  // Initialize Firebase
+// Initialize Firebase
   var config = {
     apiKey: "AIzaSyCTW_CuGxkifIrSOyH3aHrDhvouWe2Mt0s",
     authDomain: "sykkel-38222.firebaseapp.com",
@@ -26,4 +23,3 @@ $(document).ready(function() {
     messagingSenderId: "100214826901"
   };
   firebase.initializeApp(config);
-</script>
