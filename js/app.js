@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 // Función que inicializa FIREBASE
-  
+// Initialize Firebase
   var config = {
     apiKey: "AIzaSyCTW_CuGxkifIrSOyH3aHrDhvouWe2Mt0s",
     authDomain: "sykkel-38222.firebaseapp.com",
@@ -49,5 +49,7 @@ function authentication(provider){
     var credential = error.credential;
     // ...
 });
+
 };
+
 
