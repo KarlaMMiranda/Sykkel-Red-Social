@@ -1,0 +1,260 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/*Estilos index html */
+.vista {
+  background-image: url("../assets/images/bg1s.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  margin-top: 20em;
+}
+
+/*Estilos vista Sikkel */
+.vista-1 {
+  background-image: url("../assets/images/bg2.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.first {
+  background: none;
+  color: #FFF;
+  border: 2px solid #FFF;
+  font-weight: 500;
+  margin-top: 6em;
+  margin-right: .1em;
+}
+
+/*Estilos vista Iniciar sesión*/
+.vista-2 {
+  background: #FFF;
+}
+
+.fa-1 {
+  padding-top: .5em;
+  color: #7569AD;
+}
+
+h3 {
+  color: #21AFBE;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.i-perfil {
+  display: block;
+  margin-left: 8.5em;
+  width: 20%;
+}
+
+.u-info {
+  margin-top: 7em;
+}
+
+#in-put {
+  margin-top: 2em;
+  height: 3em;
+  border: none;
+  border-bottom: 3px solid #50C0B5;
+}
+
+.btn-1 {
+  margin-top: 1em;
+  background-color: #ADC476;
+  color: #FFF;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.help {
+  display: inline-block;
+  margin-top: 1em;
+  color: #7569AD;
+}
+
+/* Estilos vista Registrate */
+.checkbox{
+  margin-top: 2em;
+}
+
+a {
+  color: #7569AD;
+}
+
+/*Estilos vista Filtro 1 */
+h4{
+  color: #50C0B5;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.btn-2 {
+  background-image: url("../assets/images/adventure.jpg");
+  width: 100%;
+  height: 3em;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: .8em;
+  border-radius: 0;
+}
+
+.btn-3 {
+  background-image: url("../assets/images/art.jpg");
+  width: 100%;
+  height: 3em;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: .8em;
+  border-radius: 0;
+}
+
+.btn-4 {
+  background-image: url("../assets/images/social.jpg");
+  width: 100%;
+  height: 3em;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: .8em;
+  border-radius: 0;
+}
+
+.btn-5 {
+  background-image: url("../assets/images/food.jpg");
+  width: 100%;
+  height: 3em;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: .8em;
+  border-radius: 0;
+}
+/*Estilos vista Filtro 2 */
+.purple-logo {
+  width: 10%;
+  margin: .5em;
+}
+
+.question {
+  text-align: justify;
+  color: #7569AD;
+  margin-right: 1em;
+}
+
+/*Estilos vista Mi Perfil */
+.logo-verde {
+  width: 100%;
+  margin-top: 1.7em;
+}
+
+.profile {
+  width: 40%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .5em;
+}
+
+.name {
+  display: inline-block;
+  color: #7569AD;
+  margin: .5em;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.nivel {
+  display: inline-block;
+  color: #7569AD;
+  font-size: 1.2em;
+}
+
+.profile-info {
+  font-size: 1.1em;
+  text-align: justify;
+  margin: .5em;
+  color: #21AFBE;
+  text-decoration:underline;
+}
+
+.profile-info:hover {
+  color: #ADC476;
+  text-decoration:underline;
+}
+
+#update:placeholder{
+  color: #C1CED5
+}
+
+#update {
+  margin-top: 1em;
+  background-color: #F4F6F8;
+  height: 5em;
+  width: 100%;
+  border-radius: .3em;
+  overflow-y:scroll;
+}
+
+.upload1 {
+  text-align: right;
+}
+
+.btn-up {
+  background-color: #FFF;
+  border: 1px solid #C1CED5;
+  color: #21AFBE;
+  height: 2.5em;
+  font-weight: 500;
+  padding: .5em;
+}
+
+.btn-up:hover {
+  color: #ADC476;
+}
+
+.container {
+  border: 1px solid #C1CED5;
+  width: 100%;
+  height:auto;
+  margin-top: 1em;
+  text-align: justify;
+}
+
+.profile-1 {
+  width: 80%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.update-2 {
+  margin-top: .5em;
+  margin-left: .5em;
+  display: inline-block;
+}
+
+.up {
+  padding: 0;
+}
