@@ -12,7 +12,6 @@ $(document).ready(function() {
     },2000);
 });
 
-// Función que inicializa FIREBASE
 // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCTW_CuGxkifIrSOyH3aHrDhvouWe2Mt0s",
@@ -51,5 +50,4 @@ function authentication(provider){
 });
 
 };
-
 
