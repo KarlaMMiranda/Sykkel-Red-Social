@@ -23,7 +23,8 @@ $(document).ready(function() {
   };
   firebase.initializeApp(config);
 
-$('#buttonGoogle').click(function(){
+$('#buttonGoogle').click(function(e){
+  e.preventDefault();
   authGoogle();
 })
 function authGoogle(){
@@ -35,19 +36,27 @@ function authentication(provider){
   firebase.auth().signInWithPopup(provider).then(function(result) {
     var token = result.credential.accessToken;
     var user = result.user;
-    
-    
+    console.log(result);
+    redic();
+   
 
   }).catch(function(error) {
+    console.log(error);
 
     var errorCode = error.code;
+    console.log(errorCode);
     var errorMessage = error.message;
+    console.log(errorMessage);
+    var email = error.mail;
+    console.log(email);
     var credential = error.credential;
+    console.log(credential);
 
 });
 
-$('#buttonGoogle').click(function(){
-  window.location.href = '../views/filtro-1.html';
-});
 };
+function redic(){
+
+ window.location.href = 'filtro-1.html';
+}
 
