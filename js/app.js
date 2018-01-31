@@ -37,6 +37,9 @@ function authentication(provider){
     var token = result.credential.accessToken;
     // The signed-in user info.
     var user = result.user;
+    localStorage.setItem('userName',user.displayName);
+    localStorage.setItem('userPhoto', user.photoURL);
+    window.location.href = 'views/filtro-1.html';
     // ...
   }).catch(function(error) {
     // Handle Errors here.
@@ -51,3 +54,7 @@ function authentication(provider){
 
 };
 
+var database = firebase.database().ref().child('titulo')
+database.on('value', function(snapshot){
+
+})
