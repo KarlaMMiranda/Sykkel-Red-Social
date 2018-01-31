@@ -36,7 +36,7 @@ function authentication(provider){
     var token = result.credential.accessToken;
     var user = result.user;
     
-    window.location.href = 'views/filtro-1.html';
+    window.location.href = '../views/filtro-1.html';
 
   }).catch(function(error) {
 
