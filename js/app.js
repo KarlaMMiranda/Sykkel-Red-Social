@@ -36,7 +36,7 @@ function authentication(provider){
     var token = result.credential.accessToken;
     var user = result.user;
     
-    window.location.href = '../views/filtro-1.html';
+    
 
   }).catch(function(error) {
 
@@ -46,9 +46,8 @@ function authentication(provider){
 
 });
 
+$('#buttonGoogle').click(function(){
+  window.location.href = '../views/filtro-1.html';
+});
 };
 
-var database = firebase.database().ref().child('titulo')
-database.on('value', function(snapshot){
-
-})
