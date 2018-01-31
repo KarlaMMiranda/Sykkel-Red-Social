@@ -272,7 +272,7 @@ h4{
 /* Estilos vista Home */
 .i-perfil-1 {
   display: block;
-  margin-left: 9em;
+  margin-left: 10em;
   width: 20%;
   text-align: center;
 }
@@ -303,4 +303,64 @@ h4{
   margin-left: 17em;
   background-color: #50C0B5;
   color: #FFF;
+}
+
+/* Estilos vista menu */
+.logo-p {
+  width: 10%;
+  margin-top: -0.3em;
+  display: inline-block;
+}
+
+.sykkel-p {
+  color: #7569AD;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.btn-b {
+  background-color: #21AFBE;
+  width: 45%;
+  height: 10em;
+  display: inline-block;
+  margin: 0;
+  border: none;
+  text-align: center;
+}
+
+.btn-v {
+  background-color: #ADC476;
+  width: 45%;
+  height: 10em;
+  display: inline-block;
+  margin: 0;
+  border: none;
+  text-align: center;
+}
+
+.caja {
+  padding: 0;
+  margin: 0;
+}
+
+.name-b {
+  color: #FFF;
+  margin: 0;
+}
+
+.i-btn {
+  width: 50%;
+  margin-top: .8em;
+}
+
+.menu-btn-1 {
+  margin-right: 12em;
+  background-color: #FFF;
+  margin-top: .5em;
+}
+
+.menu-btn-2 {
+  margin-left: 0em;
+  background-color: #FFF;
+  margin-top: .5em;
 }
