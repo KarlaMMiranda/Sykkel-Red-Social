@@ -79,13 +79,7 @@ El usuario deberá contestar una serie de preguntas que nos ofrecerán conocimie
 ![Sketching](assets/images/Sketching/SykkelMobilVista6.jpg)
 ![Sketching](assets/images/Sketching/SykkelMobilVista7.jpg)
 ![Sketching](assets/images/Sketching/SykkelMobilVista8.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista9.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista10.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista11.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista12.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista13.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista14.jpg)
-![Sketching](assets/images/Sketching/SykkelMobilVista15.jpg)
+
 
 ### Versión Desktop
 
