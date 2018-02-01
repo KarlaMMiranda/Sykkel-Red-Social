@@ -28,7 +28,7 @@ $('#buttonGoogle').click(function(e){
   authGoogle();
 })
 function authGoogle(){
-  var provider = new firebase.auth.GoogleAuthProvider(); 
+  var provider = new firebase.auth.GoogleAuthProvider();
   authentication(provider);
 }
 
@@ -37,26 +37,34 @@ function authentication(provider){
     var token = result.credential.accessToken;
     var user = result.user;
     console.log(result);
+    localStorage.setItem('userName', user.displayName);
+    localStorage.setItem('userPhoto', user.photoURL)
     redic();
-   
+
 
   }).catch(function(error) {
-    console.log(error);
-
     var errorCode = error.code;
-    console.log(errorCode);
     var errorMessage = error.message;
-    console.log(errorMessage);
     var email = error.mail;
-    console.log(email);
     var credential = error.credential;
-    console.log(credential);
-
 });
-
 };
+
 function redic(){
 
  window.location.href = 'filtro-1.html';
 }
 
+function loadNewsfeedPage() {
+  paintDataUser();
+  $('.nav-link').click(logOut);
+  $('.new-text').keyup(validateHistory);
+  $('.button-publish').click(paintHistoryInHtml)
+}
+
+function paintDataUser() {
+  var userName = localStorage.getItem('userName');
+  var userPhoto = localStorage.getItem('userPhoto');
+  $('.timeline .user-name').text(userName);
+  $('.timeline .user-photo').attr('src',userPhoto);
+}
