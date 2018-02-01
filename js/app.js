@@ -52,7 +52,7 @@ function authentication(provider){
 
 function redic(){
 
- window.location.href = 'filtro-1.html';
+ window.location.href = 'perfil.html';
 }
 
 function loadNewsfeedPage() {
