@@ -38,7 +38,7 @@ function authentication(provider){
     var user = result.user;
     console.log(result);
     localStorage.setItem('userName', user.displayName);
-    localStorage.setItem('userPhoto', user.photoURL)
+    localStorage.setItem('userPhoto', user.photoURL);
     redic();
 
 
@@ -62,6 +62,6 @@ function loadNewsfeedPage() {
 function paintDataUser() {
   var userName = localStorage.getItem('userName');
   var userPhoto = localStorage.getItem('userPhoto');
-  $('.timeline .user-name').text(userName);
-  $('.timeline .user-photo').attr('src',userPhoto);
+  $('.user-name').text(userName);
+  $('.user-photo').attr('src',userPhoto);
 }
