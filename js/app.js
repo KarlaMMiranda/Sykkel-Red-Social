@@ -57,9 +57,6 @@ function redic(){
 
 function loadNewsfeedPage() {
   paintDataUser();
-  $('.nav-link').click(logOut);
-  $('.new-text').keyup(validateHistory);
-  $('.button-publish').click(paintHistoryInHtml)
 }
 
 function paintDataUser() {
