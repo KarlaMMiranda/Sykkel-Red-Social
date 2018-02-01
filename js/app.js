@@ -39,7 +39,7 @@ function authentication(provider){
     console.log(result);
     localStorage.setItem('userName', user.displayName);
     localStorage.setItem('userPhoto', user.photoURL);
-    redic();
+    window.location.href = 'perfil.html';
 
 
   }).catch(function(error) {
@@ -48,11 +48,6 @@ function authentication(provider){
     var email = error.mail;
     var credential = error.credential;
 });
-};
-
-function redic(){
-
- window.location.href = 'perfil.html';
 }
 
 function loadNewsfeedPage() {
