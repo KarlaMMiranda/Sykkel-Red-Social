@@ -1,5 +1,5 @@
 # Sykkel - Ride in community
-
+![sykkel-001](https://user-images.githubusercontent.com/32859023/38582554-c1b8a1ce-3cd5-11e8-8238-d7517bc0e843.jpg)
 ## User Research
 
 Grupo de 5 a 10 personas: personas que utilizan la bicicleta como medio de transporte diario o como una actividad recreativa.
